@@ -1,0 +1,186 @@
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\appsettings.json
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.exe
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.deps.json
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.runtimeconfig.json
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.runtimeconfig.dev.json
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.Views.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.Views.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.AssemblyInfoInputs.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.AssemblyInfo.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.csproj.CoreCompileInputs.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.MvcApplicationPartsAssemblyInfo.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorAssemblyInfo.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorAssemblyInfo.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\staticwebassets\EventPlanning.StaticWebAssets.Manifest.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\staticwebassets\EventPlanning.StaticWebAssets.xml
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\scopedcss\bundle\EventPlanning.styles.css
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.TagHelpers.input.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.TagHelpers.output.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorCoreGenerate.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorTargetAssemblyInfo.cache
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorTargetAssemblyInfo.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.Views.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.csproj.CopyComplete
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.dll
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.pdb
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.genruntimeconfig.cache
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Events\AddEvent.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Events\AddField.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Events\GetEvents.cshtml.g.cs
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.csprojAssemblyReference.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\appsettings.json
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.exe
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.deps.json
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.runtimeconfig.json
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.runtimeconfig.dev.json
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.Views.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\EventPlanning.Views.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.csprojAssemblyReference.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.AssemblyInfoInputs.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.AssemblyInfo.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.csproj.CoreCompileInputs.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.MvcApplicationPartsAssemblyInfo.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorAssemblyInfo.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorAssemblyInfo.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\staticwebassets\EventPlanning.StaticWebAssets.Manifest.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\staticwebassets\EventPlanning.StaticWebAssets.xml
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\scopedcss\bundle\EventPlanning.styles.css
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.TagHelpers.input.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.TagHelpers.output.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorCoreGenerate.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Events\AddEvent.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Events\AddField.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Events\GetEvents.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorTargetAssemblyInfo.cache
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.RazorTargetAssemblyInfo.cs
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.Views.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.csproj.CopyComplete
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.dll
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.pdb
+C:\проекты C#\EventPlanning\EventPlanning\EventPlanning\obj\Debug\netcoreapp3.1\EventPlanning.genruntimeconfig.cache

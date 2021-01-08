@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Поля мероприятия</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Поля мероприятия</h2>
+    <form name="fieldsForm">
+        <input type="hidden" name="id" value="0" />
+        <input name="eventId" disabled="disabled" />
+        <div class="form-group col-md-5">
+            <label for="name">Наименование:</label>
+            <input class="form-control" name="name" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="value">Значение:</label>
+            <input class="form-control" name="value" />
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Добавить поле</button>
+            <button id="transition" class="btn btn-primary" onclick="window.location.href = '/getevents.html'">Перейти к списку мероприятий</button>
+            <a id="reset" class="btn btn-primary" hidden="hidden">Сбросить</a>
+        </div>
+        <br>
+        <div class="form-control">
+            <label for="userId"> Id читателя для брони книги</label>
+            <input name="userId" />
+        </div>
+    </form>
+    <table class="table table-condensed table-striped  col-md-6">
+        <thead><tr><th>Id</th><th>Наименование</th><th>Значение</th><th></th><th></th><th></th></tr></thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+
+        async function GetFields() {
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var eventId = url.searchParams.get("id");
+
+            const form = document.forms["fieldsForm"];
+            form.elements["eventId"].value = eventId;
+
+            const response = await fetch("/api/info/" + eventId, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const fields = await response.json();
+                let rows = document.querySelector("tbody");
+                fields.forEach(field => {
+                    rows.append(row(field));
+                });
+            }
+        }
+
+        async function GetField(id) {
+            const response = await fetch("/api/fields/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const field = await response.json();
+                const form = document.forms["fieldsForm"];
+                form.elements["id"].value = field.id;
+                form.elements["name"].value = field.name;
+                form.elements["eventId"].value = field.eventId;
+                form.elements["value"].value = field.value;
+            }
+        }
+
+        async function CreateField(name, value, eventId) {
+            const response = await fetch("api/fields", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: name,
+                    value: value,
+                    eventId: parseInt(eventId, 10)
+                })
+            });
+            if (response.ok === true) {
+                const field = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(field));
+            }
+        }
+
+        async function EditField(id, name, value, eventId) {
+            const response = await fetch("api/fields", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: parseInt(id, 10),
+                    name: name,
+                    value: value,
+                    eventId: parseInt(eventId, 10)
+                })
+            });
+            if (response.ok === true) {
+                const field = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + field.id + "']").replaceWith(row(field));
+            }
+        }
+        
+        async function DeleteField(id) {
+            const response = await fetch("/api/fields/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const field = await response.json();
+                document.querySelector("tr[data-rowid='" + field.id + "']").remove();
+            }
+        }
+        //!!
+        async function ReserveBook(book) {
+            const form = document.forms["bookForm"];
+            const userIdN = form.elements["userId"].value;
+            if (book.userId != null)
+                userId = null;
+            else
+                userId = userIdN;    //  !!!!!!!!!!!! костыль убрать после авторизации
+            const response = await fetch("api/books", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: parseInt(book.id, 10),
+                    name: book.name,
+                    userId: userId  
+                })
+            });
+            if (response.ok === true) {
+                const book = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + book.id + "']").replaceWith(row(book));
+            }
+        }
+        // сброс формы
+        function reset() {
+            const form = document.forms["fieldsForm"];
+            form.reset();
+            form.elements["id"].value = 0;
+        }
+        // создание строки для таблицы
+        function row(field) {
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", field.id);
+
+            const idTd = document.createElement("td");
+            idTd.append(field.id);
+            tr.append(idTd);
+
+            const nameTd = document.createElement("td");
+            nameTd.append(field.name);
+            tr.append(nameTd);
+
+            const valueTd = document.createElement("td");
+            valueTd.append(field.value);
+            tr.append(valueTd);
+
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", field.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Изменить");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetField(field.id);
+            });
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", field.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeleteField(field.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+            return tr;
+        }
+        // сброс значений формы
+        document.getElementById("reset").click(function (e) {
+
+            e.preventDefault();
+            reset();
+        })
+        // отправка формы
+        document.forms["fieldsForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["fieldsForm"];
+            const id = form.elements["id"].value;
+            const name = form.elements["name"].value;
+            const value = form.elements["value"].value;
+            const eventId = form.elements["eventId"].value;
+            if (id == 0)
+                CreateField(name, value, eventId);
+            else
+                EditField(id, name, value, eventId);
+        });
+        GetFields();
+
+    </script>
+</body>
+</html>

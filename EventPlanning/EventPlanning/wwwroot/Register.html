@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>Регистрация на мероприятие</h2>
+    <form name="userForm">
+        <input type="hidden" name="id" value="0" />
+        <div class="form-group col-md-5">
+            <label for="email">Email</label><br />
+            <input name="email" />
+            <span validation-for="email"></span>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="password">Password</label><br />
+            <input name="password" />
+            <span validation-for="password"></span>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="passwordConfirm">Повторите пароль</label><br />
+            <input name="passwordConfirm" />
+            <span validation-for="passwordConfirm"></span>
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Отправить</button>
+            <button id="transition" class="btn btn-primary" onclick="window.location.href = '/getevents.html'">Перейти к списку событий</button>
+            <a id="reset" class="btn btn-primary" hidden="hidden">Сбросить</a>
+        </div>
+    </form>
+    <script>
+        async function RegisterEmail(email, password, eventId) {
+            await fetch("api/account", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    email: email,
+                    password: password,
+                    eventId: parseInt(eventId, 10)
+                })
+            })
+        };
+        document.forms["userForm"].addEventListener("submit", e => {
+            e.preventDefault();
+
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var eventId = url.searchParams.get("id");
+
+            const form = document.forms["userForm"];
+            const id = form.elements["id"].value;
+            const email = form.elements["email"].value;
+            const password = form.elements["password"].value;
+            RegisterEmail(email, password, eventId);
+        });
+        
+    </script>
+</body>
+</html>

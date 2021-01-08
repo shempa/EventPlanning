@@ -10,7 +10,7 @@
     <h2>Список событий</h2>
     <form name="eventForm">
         <input type="hidden" name="id" value="0" />
-        <input name="userId" />
+        <input name="userId" type="hidden" />
         <div class="form-group col-md-5">
             <label for="name">Название:</label>
             <input class="form-control" name="name" />
@@ -21,7 +21,6 @@
         </div>
         <div class="panel-body">
             <button type="submit" id="submit" class="btn btn-primary">Добавить событие</button>
-            <button id="transition" class="btn btn-primary" onclick="window.location.href = '/getbooks.html'">Перейти к списку </button>
             <a id="reset" class="btn btn-primary" hidden="hidden">Сбросить</a>
         </div>
     </form>
@@ -113,24 +112,8 @@
             };
 
             async function RegisterUser(eventId) {
-                debugger;
-                window.location.href = '/Register.html';
-                const form = document.forms["eventForm"];
-                const userId = form.elements["userId"].value;
-
-                const response = await fetch("api/users", {
-                    method: "PUT",
-                    headers: { "Accept": "application/json", "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        eventId: eventId
-                    })
-                });
-                if (response.ok === true) {
-                    const user = await response.json();
-                    reset();
-                    document.querySelector("tr[data-rowid='" + user.id + "']").replaceWith(row(user));
-                }
-            }
+                window.location.href = '/Register.html?id='+eventId;
+        };
 
         // сброс формы
         function reset() {

@@ -30,6 +30,10 @@ namespace EventPlanning
 
             services.AddDbContext<EventContext>(options => options.UseSqlServer(con));
 
+            services.AddIdentity<User, IdentityRole>()
+                .AddRoles<IdentityRole>()
+               .AddEntityFrameworkStores<EventContext>()
+               .AddDefaultTokenProviders();
             /*
            services.AddIdentity<User, IdentityRole>()
                .AddEntityFrameworkStores<UserContext>();

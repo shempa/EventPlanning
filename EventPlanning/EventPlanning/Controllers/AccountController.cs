@@ -11,10 +11,10 @@ using System.Net.Mail;
 
 namespace EventPlanning.Controllers
 {
-    public class AccountController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AccountController : ControllerBase
     {
-
-
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
 
@@ -23,24 +23,29 @@ namespace EventPlanning.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-        [HttpGet]
-        public IActionResult Register()
-        {
-            return View();
-        }
+
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+        public async Task<IActionResult> Register(User model)
         {
             if (ModelState.IsValid)
             {
-                User user = new User { Email = model.Email, UserName = model.Email};
+                User user = new User { Email = model.Email, UserName = model.Email };
                 // добавляем пользователя
-                var result = await _userManager.CreateAsync(user, model.Password);
+                var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
-                    // установка куки
-                    await _signInManager.SignInAsync(user, false);
-                    return RedirectToAction("Index", "Home");
+                    // генерация токена для пользователя
+                    var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var callbackUrl = Url.Action(
+                        "ConfirmEmail",
+                        "Account",
+                        new { userId = user.Id, code = code },
+                        protocol: HttpContext.Request.Scheme);
+                    EmailService emailService = new EmailService();
+                    await emailService.SendEmailAsync(model.Email, "Confirm your account",
+                        $"Подтвердите регистрацию, перейдя по ссылке: <a href='{callbackUrl}'>link</a>");
+
+                    return Content("Для завершения регистрации проверьте электронную почту и перейдите по ссылке, указанной в письме");
                 }
                 else
                 {
@@ -50,7 +55,7 @@ namespace EventPlanning.Controllers
                     }
                 }
             }
-            return View(model);
+            return Ok(model);
         }
 
         /*

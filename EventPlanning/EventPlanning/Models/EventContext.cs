@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EventPlanning.Models
 {
-    public class EventContext : DbContext //DbContext IdentityDbContext<User> 
+    public class EventContext : IdentityDbContext<User> //DbContext IdentityDbContext<User> 
     {
         public DbSet<Event> Events { get; set; }
         public DbSet<Field> Fields { get; set; }

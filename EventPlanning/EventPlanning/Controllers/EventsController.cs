@@ -16,19 +16,13 @@ namespace EventPlanning.Controllers
         public EventsController(EventContext context)
         {
             db = context;
-            if (!db.Events.Any())
-            {
-                db.Events.Add(new Event { Name = "Tom" });
-                db.Events.Add(new Event { Name = "Alice"});
-                db.SaveChanges();
-            }
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Event>>> Get()
         {
-            var qwe = await db.Events.ToListAsync();
-            return qwe;
+            var events = await db.Events.ToListAsync();
+            return events;
         }
 
         [HttpGet("{id}")]

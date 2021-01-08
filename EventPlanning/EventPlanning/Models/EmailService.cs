@@ -24,7 +24,7 @@ namespace EventPlanning.Models
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.mail.ru", 25, false);
-                await client.AuthenticateAsync("shempa@mail.ru", "7588bb");
+                await client.AuthenticateAsync("***@mail.ru", "****");
                 await client.SendAsync(emailMessage);
 
                 await client.DisconnectAsync(true);
